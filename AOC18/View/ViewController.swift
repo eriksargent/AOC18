@@ -19,7 +19,7 @@ class ViewController: NSViewController {
 	
 	fileprivate lazy var backgroundQueue = DispatchQueue(label: "BackgroundProcessing")
 	
-	fileprivate var puzzles: [Puzzle.Type] = [Puzzle1_1.self, Puzzle1_2.self, Puzzle2_1.self, Puzzle2_2.self, Puzzle3_1.self, Puzzle3_2.self, Puzzle4_1.self, Puzzle4_2.self, Puzzle5_1.self, Puzzle5_2.self, Puzzle6_1.self, Puzzle6_2.self]
+	fileprivate var puzzles: [Puzzle.Type] = [Puzzle1_1.self, Puzzle1_2.self, Puzzle2_1.self, Puzzle2_2.self, Puzzle3_1.self, Puzzle3_2.self, Puzzle4_1.self, Puzzle4_2.self, Puzzle5_1.self, Puzzle5_2.self, Puzzle6_1.self, Puzzle6_2.self, Puzzle7_1.self, Puzzle7_2.self]
 	var activePuzzle: Puzzle.Type? {
 		didSet {
 			if let type = activePuzzle {

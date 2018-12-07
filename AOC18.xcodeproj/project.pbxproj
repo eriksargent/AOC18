@@ -13,6 +13,9 @@
 		BF2401E821B81C0200B9DAC3 /* Puzzle5_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2401E721B81C0200B9DAC3 /* Puzzle5_1.swift */; };
 		BF2401EA21B81C0900B9DAC3 /* Puzzle5_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2401E921B81C0900B9DAC3 /* Puzzle5_2.swift */; };
 		BF2401EC21B81C0F00B9DAC3 /* Puzzle5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2401EB21B81C0F00B9DAC3 /* Puzzle5.swift */; };
+		BF50867D21BA38E8005A23E6 /* Puzzle7_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50867C21BA38E8005A23E6 /* Puzzle7_1.swift */; };
+		BF50867F21BA38F1005A23E6 /* Puzzle7_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50867E21BA38F1005A23E6 /* Puzzle7_2.swift */; };
+		BF50868121BA38FE005A23E6 /* Puzzle7.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50868021BA38FE005A23E6 /* Puzzle7.swift */; };
 		BF765D9821AC779400A9947A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF765D9721AC779400A9947A /* AppDelegate.swift */; };
 		BF765D9A21AC779400A9947A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF765D9921AC779400A9947A /* ViewController.swift */; };
 		BF765D9C21AC779600A9947A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF765D9B21AC779600A9947A /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 		BF2401E721B81C0200B9DAC3 /* Puzzle5_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle5_1.swift; sourceTree = "<group>"; };
 		BF2401E921B81C0900B9DAC3 /* Puzzle5_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle5_2.swift; sourceTree = "<group>"; };
 		BF2401EB21B81C0F00B9DAC3 /* Puzzle5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle5.swift; sourceTree = "<group>"; };
+		BF50867C21BA38E8005A23E6 /* Puzzle7_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle7_1.swift; sourceTree = "<group>"; };
+		BF50867E21BA38F1005A23E6 /* Puzzle7_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle7_2.swift; sourceTree = "<group>"; };
+		BF50868021BA38FE005A23E6 /* Puzzle7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle7.swift; sourceTree = "<group>"; };
 		BF765D9421AC779400A9947A /* AOC18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOC18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF765D9721AC779400A9947A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF765D9921AC779400A9947A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +154,8 @@
 				BF2401E921B81C0900B9DAC3 /* Puzzle5_2.swift */,
 				BF9DB8BA21B9821C00E9A29C /* Puzzle6_1.swift */,
 				BF9DB8BC21B9822500E9A29C /* Puzzle6_2.swift */,
+				BF50867C21BA38E8005A23E6 /* Puzzle7_1.swift */,
+				BF50867E21BA38F1005A23E6 /* Puzzle7_2.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 				BF05597A21B6E15A00440B11 /* Puzzle4.swift */,
 				BF2401EB21B81C0F00B9DAC3 /* Puzzle5.swift */,
 				BF9DB8BE21B9824F00E9A29C /* Puzzle6.swift */,
+				BF50868021BA38FE005A23E6 /* Puzzle7.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -298,6 +307,7 @@
 			files = (
 				BF05597921B6DF9100440B11 /* Puzzle4_1.swift in Sources */,
 				BF9DB8BD21B9822500E9A29C /* Puzzle6_2.swift in Sources */,
+				BF50867F21BA38F1005A23E6 /* Puzzle7_2.swift in Sources */,
 				BFEBAC9521B46F3D00ECA6B0 /* Puzzle2_1.swift in Sources */,
 				BFB72E6921B5BBA3007B0452 /* Puzzle3_2.swift in Sources */,
 				BF2401E821B81C0200B9DAC3 /* Puzzle5_1.swift in Sources */,
@@ -305,6 +315,7 @@
 				BFB72E5E21B5A475007B0452 /* Regex.swift in Sources */,
 				BF765D9A21AC779400A9947A /* ViewController.swift in Sources */,
 				BF05597D21B74AD400440B11 /* Puzzle4_2.swift in Sources */,
+				BF50867D21BA38E8005A23E6 /* Puzzle7_1.swift in Sources */,
 				BF765DB921AC81D000A9947A /* Puzzle1_1.swift in Sources */,
 				BFB72E6421B5A5F9007B0452 /* Optionals.swift in Sources */,
 				BF9DB8BB21B9821C00E9A29C /* Puzzle6_1.swift in Sources */,
@@ -321,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF9DB8BF21B9824F00E9A29C /* Puzzle6.swift in Sources */,
+				BF50868121BA38FE005A23E6 /* Puzzle7.swift in Sources */,
 				BFB72E6221B5A49E007B0452 /* Puzzle3.swift in Sources */,
 				BF2401EC21B81C0F00B9DAC3 /* Puzzle5.swift in Sources */,
 				BFEBAC9721B46F5B00ECA6B0 /* Puzzle2.swift in Sources */,
